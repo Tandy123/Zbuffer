@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ScanLineZbuffer">
+      <UniqueIdentifier>{e494471c-6f14-44cb-b71c-acbb84d00bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{c9394d66-3210-45e3-bcfa-f51e9766f15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{2b53ffc2-d0b9-4e8a-b823-4b715af41845}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TandyZbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TandyZbufferDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TandyZbufferView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Triple.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMain.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineInterface.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ScanLineZbuffer.h">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveList.h">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Bucket.h">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogCone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TandyZbuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TandyZbufferDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TandyZbufferView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMain.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveList.cpp">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Bucket.cpp">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanLineZbuffer.cpp">
+      <Filter>ScanLineZbuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogCone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TandyZbuffer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TandyZbuffer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TandyZbufferDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TandyZbuffer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mainfram.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
